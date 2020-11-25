@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Monokai Dark</string>
+	<string>SUSTian Monokai Dark</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#0F0F0F</string>
+				<string>#000000</string>
 				<key>caret</key>
-				<string>#F8F8F0</string>
+				<string>#FFFFFF</string>
 				<key>foreground</key>
-				<string>#F8F8F2</string>
+				<string>#FFFFFF</string>
 				<key>invisibles</key>
 				<string>#3B3A32</string>
 				<key>lineHighlight</key>
-				<string>#3E3D32</string>
+				<string>#7777</string>
 				<key>selection</key>
 				<string>#49483E</string>
 				<key>findHighlight</key>
-				<string>#FFE792</string>
+				<string>#777E</string>
 				<key>findHighlightForeground</key>
 				<string>#000000</string>
 				<key>selectionBorder</key>
@@ -30,13 +30,13 @@
 				<key>activeGuide</key>
 				<string>#9D550FB0</string>
 				<key>misspelling</key>
-				<string>#F92672</string>
+				<string>#66D9EF</string>
 				<key>bracketsForeground</key>
-				<string>#F8F8F2A5</string>
+				<string>#FFFFFFA5</string>
 				<key>bracketsOptions</key>
 				<string>underline</string>
 				<key>bracketContentsForeground</key>
-				<string>#F8F8F2A5</string>
+				<string>#FFFFFFA5</string>
 				<key>bracketContentsOptions</key>
 				<string>underline</string>
 				<key>tagsOptions</key>
@@ -51,7 +51,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#75715E</string>
+				<string>#77776E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -73,7 +73,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AE81FF</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 
@@ -111,16 +111,16 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>Keyword</string>
-			<key>scope</key>
-			<string>keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F92672</string>
-			</dict>
-		</dict>
+            <key>name</key>
+            <string>Keyword</string>
+            <key>scope</key>
+            <string>keyword, variable.other.dollar.only.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F92672</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>Annotation Punctuation</string>
@@ -164,7 +164,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>normal</string>
 				<key>foreground</key>
 				<string>#66D9EF</string>
 			</dict>
@@ -179,7 +179,7 @@
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#59FCC8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -190,24 +190,24 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic underline</string>
+				<string>normal underline</string>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#59FCC8</string>
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>Function argument</string>
-			<key>scope</key>
-			<string>variable.parameter - (source.c | source.c++ | source.objc | source.objc++)</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#FD971F</string>
-			</dict>
-		</dict>
+            <key>name</key>
+            <string>Function argument</string>
+            <key>scope</key>
+            <string>variable.parameter</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>normal</string>
+                <key>foreground</key>
+                <string>#FD971F</string>
+            </dict>
+        </dict>
 		<dict>
 			<key>name</key>
 			<string>Language variable</string>
@@ -216,7 +216,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>normal</string>
 				<key>foreground</key>
 				<string>#FD971F</string>
 			</dict>
@@ -294,7 +294,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>normal</string>
 				<key>foreground</key>
 				<string>#66D9EF</string>
 			</dict>
@@ -318,11 +318,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F92672</string>
+				<string>#66D9EF</string>
 				<key>fontStyle</key>
 				<string />
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -335,7 +335,7 @@
 				<key>background</key>
 				<string>#AE81FF</string>
 				<key>foreground</key>
-				<string>#F8F8F0</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -357,7 +357,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F8F8F2</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 
@@ -429,24 +429,24 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>markup italic</string>
+			<string>markup normal</string>
 			<key>scope</key>
-			<string>markup.italic</string>
+			<string>markup.normal</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>normal</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>markup bold/italic</string>
+			<string>markup bold/normal</string>
 			<key>scope</key>
-			<string>markup.italic markup.bold | markup.bold markup.italic</string>
+			<string>markup.normal markup.bold | markup.bold markup.normal</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold italic</string>
+				<string>bold normal</string>
 			</dict>
 		</dict>
 		<dict>
@@ -519,7 +519,7 @@
 			<key>name</key>
 			<string>markup punctuation</string>
 			<key>scope</key>
-			<string>text &amp; (punctuation.definition.italic | punctuation.definition.bold | punctuation.definition.raw | punctuation.definition.link | punctuation.definition.metadata | punctuation.definition.image | punctuation.separator.table-cell | punctuation.section.table-header | punctuation.definition.constant)</string>
+			<string>text &amp; (punctuation.definition.normal | punctuation.definition.bold | punctuation.definition.raw | punctuation.definition.link | punctuation.definition.metadata | punctuation.definition.image | punctuation.separator.table-cell | punctuation.section.table-header | punctuation.definition.constant)</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -545,7 +545,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6E22E</string>
+				<string>#59FCC8</string>
 			</dict>
 		</dict>
 		<dict>
